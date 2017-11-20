@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;  
+}
+#space {
+    height: 550px;
+}
+nav {
+    background-color: white;
+}
+nav ul a {
+    color: black;
+}
+nav .brand-logo {
+    color: black;
+}
+#landing-page {
+    background-image: url("../images/model.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    max-height: 800px;
+    background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -webkit-background-size:cover;
+    height: 800px;
+}
