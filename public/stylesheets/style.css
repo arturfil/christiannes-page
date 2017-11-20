@@ -2,6 +2,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    font-family: 'Adamina', serif;
 }
 main {
     flex: 1 0 auto;  
@@ -12,12 +13,18 @@ main {
 nav {
     background-color: white;
 }
+.nav-wrapper {
+    margin: 0 20px;
+}
 nav ul a {
     color: black;
 }
 nav .brand-logo {
     color: black;
 }
+
+/* Landing Page css */
+
 #landing-page {
     background-image: url("../images/model.jpg");
     background-attachment: fixed;
@@ -29,4 +36,15 @@ nav .brand-logo {
     -o-background-size:cover;
     -webkit-background-size:cover;
     height: 800px;
+}
+.header-overlay {
+  background-color: rgba(31, 31, 31, 0.7);
+  height: auto;
+}
+#landing-page h2 {
+    margin: 25% auto;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 85px;
 }
