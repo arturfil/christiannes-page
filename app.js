@@ -7,8 +7,9 @@ const bodyParser   = require('body-parser');
 const layouts      = require('express-ejs-layouts');
 const mongoose     = require('mongoose');
 
+requrie('dotenv').config();
 
-mongoose.connect('mongodb://localhost/christiannes-page');
+mongoose.connect(process.env.MONGODB_URI);
 
 const app = express();
 
