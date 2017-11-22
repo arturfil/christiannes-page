@@ -19,7 +19,7 @@ hr {
 /* logos */
 
 i {
-    border: 3px solid black;
+    border: 3px solid white;
     border-radius: 50%;
     padding: 3px 5px;
     text-align: center;
@@ -138,4 +138,13 @@ nav .brand-logo {
     height: 400px;
     width: 400px;
     transition: 0.2s;
+}
+
+/* footer */
+
+footer {
+    background-color: black !important;
+}
+input, textarea {
+    border-bottom: 1px solid #fff !important;
 }
