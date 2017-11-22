@@ -2,16 +2,51 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    font-family: 'Adamina', serif;
+    font-family: 'Quicksand', sans-serif;
 }
+.elegant {
+    font-family: 'Adamina', sans-serif;
+}
+hr {
+    width: 100%;
+    padding: 8px 0;
+    color: black;
+    border: black solid 1px;
+    background-color: black;
+    margin-top: 40px;
+}
+
+/* logos */
+
+i {
+    border: 3px solid black;
+    border-radius: 50%;
+    padding: 3px 5px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.fa-facebook {
+    padding: 3px 7px;
+}
+i:hover {
+    border-color: rgb(231, 199, 14);
+    color: rgb(231, 199, 14);
+}
+
+/*main*/
+
 main {
-    flex: 1 0 auto;  
+    flex: 10px auto;  
+}
+.brand-logo {
+    margin-top: 15px;
 }
 #space {
     height: 550px;
 }
 nav {
     background-color: white;
+    height: 100px;
 }
 .nav-wrapper {
     margin: 0 20px;
@@ -39,12 +74,68 @@ nav .brand-logo {
 }
 .header-overlay {
   background-color: rgba(31, 31, 31, 0.7);
-  height: auto;
+  height: 800px;
 }
 #landing-page h2 {
     margin: 25% auto;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-align: center;
     color: white;
     font-size: 85px;
+}
+
+/* Prefix */
+
+#prefix h3 {
+    margin-top: 130px;
+    text-transform: capitalize;
+    font-family: 'Adamina', serif;
+}
+#prefix p {
+    font-size: 18px;
+}
+
+/* Gallery */
+
+#gallery row {
+    width: 100%;
+    margin: 0 auto;
+}
+#gallery img {
+    margin: 40px 0;
+    height: 380px;
+    width: 380px;
+    overflow: hidden;
+    text-align: center;
+}
+.images {
+    text-align: center;
+}
+
+/* Services */
+
+#services {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; 
+    height: 700px;
+}
+#services h3 {
+    font-style: italic;
+    padding-top: 40px;
+}
+#services h4 {
+    margin-top: 40px;
+    text-align: center;
+}
+#services img {
+    margin-top: 40px;
+    height: 380px;
+    width: 380px;
+    overflow: hidden;
+    text-align: center;
+}
+#services img:hover {
+    height: 400px;
+    width: 400px;
+    transition: 0.2s;
 }
